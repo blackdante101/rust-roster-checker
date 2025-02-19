@@ -8,8 +8,8 @@ fn main() {
         if name_input == line {
             println!("{} is part of the roster", name_input);
             return;
-        } else {
-            println!("{} is not part of the roster", name_input);  
         }
     }
+
+    println!("{} is not part of the roster", name_input); 
 }
